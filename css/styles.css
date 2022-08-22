@@ -32,6 +32,15 @@ body {
   margin-right: auto;
 }
 
+img {
+  min-width: 100%;
+  height: auto;
+}
+
+*:focus {
+  outline: 2px dashed #7296ec;
+}
+
 .button {
   display: inline-block;
   padding: 13px 20px;
@@ -101,8 +110,23 @@ body {
   color: #2959ce;
 
 }
-.currency-rates-value {
+
+.global-search-form {
+  margin: 25px;
 }
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-right: 28px;
+  padding-bottom: 13px;
+  padding-left: 48px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+  background-color: aqua;
+}
+
 .lang-toggle {
   display: flex;
   padding: 3px;
